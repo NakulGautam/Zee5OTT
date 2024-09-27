@@ -1,0 +1,184 @@
+.nav_sec{
+    height: 90px;
+    background-color: #0f0617;
+    display: flex;
+    justify-content: center;
+}
+.nav_inner{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zee_logo{
+    height: 50px;
+    width: 50px;
+}
+.nav_ul1{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav_ul1 li{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-wrap: nowrap;
+}
+.nav_ul2{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav_ul2 li{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.srch_div{
+    height: 45px;
+    width: auto;
+    border: gray solid 1px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.srch_input{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.srch_input:focus{
+    outline: none;
+}
+.lan_div{
+    background-color: #ffffff0d;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plan_btn{
+    background-color: blueviolet !important;
+    outline: none;
+    border: blueviolet solid 1px !important;
+    width: 100%;
+    white-space: nowrap;
+    
+}
+.plan_btn:hover{
+    background-color: #7322be !important;
+    outline: none;
+   
+}
+
+.dropdown-toggle::after {
+    display: none !important; /* Hides the default arrow */
+}
+
+
+
+@media (max-width: 1250px) {
+    .nav_ul1 li:nth-last-child(1) {
+        display: none;
+    }
+}
+
+@media (max-width: 1028px) {
+    .nav_ul1 li:nth-last-child(2) {
+        display: none;
+    }
+}
+
+/* Hide second last item on screens smaller than 992px */
+@media (max-width: 992px) {
+    .nav_ul1 li:nth-last-child(3) {
+        display: none;
+    }
+    .nav_ul2{
+        justify-content: end;
+        width: 100%;
+    
+    }
+
+
+    .nav_ul2 li:first-child, .srch_div, .srch_input{
+        width: 100% !important;
+    }
+}
+
+/* Hide third last item on screens smaller than 768px */
+@media (max-width: 992px) {
+    .nav_ul1 li:nth-last-child(4) {
+        display: none;
+    }
+}
+
+/* Hide fourth last item on screens smaller than 576px */
+@media (max-width: 992px) {
+    .nav_ul1 li:nth-last-child(5) {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .nav_ul1 li:nth-last-child(6) {
+        display: none;
+    }
+
+}
+
+
+/* ul2 */
+
+@media (max-width: 1198px) {
+
+    .nav_ul2{
+        width: 100% !important;
+        justify-content: end !important;
+    }
+
+    .nav_ul2 li:first-child, .srch_div, .srch_input{
+        width: 100% !important;
+    }
+
+    .nav_ul2 li:nth-last-child(2) {
+        display: none;
+    }
+
+    .Acc_menu li:nth-last-child(2){
+        display: block;
+    }
+}
+
+/* Hide fourth last item on screens smaller than 576px */
+@media (max-width: 576px) {
+    .nav_ul2 li:nth-last-child(3) {
+        display: none;
+    }
+
+    .Acc_menu li:nth-last-child(3){
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 470px) {
+    .nav_ul2 li:nth-last-child(4) {
+        display: none;
+    }
+
+    .Acc_menu li:nth-last-child(4){
+        display: block;
+    }
+
+}

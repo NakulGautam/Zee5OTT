@@ -1,0 +1,56 @@
+/* Language section container */
+.language-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  /* Each language row styling */
+  .language-row {
+    height: 120px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+  }
+  
+  /* Scaling effect on hover */
+  .language-row:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Language text styling */
+  .language-text {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    user-select: none;
+    padding: 0;
+  }
+
+  @media (max-width:576px) {
+
+    .language-row {
+      height: 110px;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+  
+    }
+
+  }
+  

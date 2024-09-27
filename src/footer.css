@@ -1,0 +1,306 @@
+/* Footer container */
+.footer {
+    background-color: #141414;
+    color: #ffffff;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  /* Footer logo section */
+  .logo-section {
+    
+    min-width: 200px;
+    height: 212px;
+   
+  }
+  
+  .footer-logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .logo-section p {
+    max-width: 180px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  
+  /* Footer navigation links */
+  .links-section {
+    min-width: 180px;
+    
+  }
+  
+  .links-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+
+  }
+  
+  .links-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .links-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .links-section ul li a:hover {
+    color: #ffc107;
+  }
+  
+  /* hrlp */
+
+  .help-section {
+    min-width: 180px;
+    
+  }
+  
+  .help-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+
+  }
+  
+  .help-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .help-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .help-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .help-section ul li a:hover {
+    color: #ffc107;
+  }
+
+  /* Social media section */
+  .social-section {
+   
+    min-width: 180px;
+  }
+  
+  .social-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: #ccc;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffc107;
+  }
+  
+  /* Footer bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+  }
+
+
+
+  @media (min-width:768px) and (max-width:992px) {
+
+    .links-section h4 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+  
+    }
+
+    .links-section ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-container  {
+      
+      justify-content: space-between !important;
+    }
+
+    .social-section h4 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    .social-icons {
+      color: #ccc;
+      font-size: 20px;
+      transition: color 0.3s;
+      display: flex;
+      justify-content: start;
+    }
+    
+  }
+  
+
+  @media (min-width:436px) and (max-width:767px) {
+
+    .footer-container  {
+      
+      justify-content: space-between !important;
+    }
+
+    .links-section h4 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+  
+    }
+
+    .links-section ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+      display: flex;
+      justify-content: center;
+    }
+
+
+    .social-section h4 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center !important;
+    }
+
+    .social-icons {
+      color: #ccc;
+      font-size: 20px;
+      transition: color 0.3s;
+      display: flex;
+      justify-content: center;
+    }
+
+    .help-section {
+      margin-top: 40px;
+      
+    }
+
+    .social-section {
+   
+      margin-top: 40px;
+    }
+
+   
+    
+  }
+
+
+  @media (min-width:350px) and (max-width:435px) {
+
+    .footer-container  {
+      
+      justify-content: space-between !important;
+    }
+
+    .logo-section {
+    
+      min-width: 130px;
+      height: 212px;
+     
+    }
+    
+    .logo-section p {
+      max-width: 125px;
+      font-size: 14px;
+      color: #ccc;
+      line-height: 1.5;
+    }
+
+    .links-section {
+      min-width: 150px;
+      
+    }
+    
+
+    .links-section h4 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+  
+    }
+
+    .links-section ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+      display: flex;
+      justify-content: center;
+    }
+
+    .help-section {
+      min-width: 130px;
+      
+    }
+
+
+    .social-section h4 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center !important;
+    }
+
+    .social-icons {
+      color: #ccc;
+      font-size: 20px;
+      transition: color 0.3s;
+      display: flex;
+      justify-content: center;
+    }
+
+    .help-section {
+      margin-top: 40px;
+      
+    }
+
+    .social-section {
+    min-width: 150px;
+      margin-top: 40px;
+    }
+
+   
+    
+  }
