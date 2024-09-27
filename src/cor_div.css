@@ -34,7 +34,7 @@
     top: 169px;
     left: -130px;
     height: fit-content;
-    width: fit-content;
+    width: 250px !important;
     padding: 7px;
     background: rgba(255, 255, 255, 0.3); /* Slight background color */
     backdrop-filter: blur(10px); /* The blur effect for the background */
@@ -134,6 +134,12 @@
         
         padding-top: 30px;
     }
+    .mov_cover {
+        top: 226px;
+    left: -40px;
+       
+    }
+    
 }
 
 
@@ -167,7 +173,7 @@
 
     .mov_cover {
         top: 239px;
-        left: 80px;
+        left: 67px;
        
     }
 }
@@ -206,7 +212,7 @@
 
     .mov_cover {
         top: 239px;
-        left: 59px;
+        left: 40px;
        
     }
 }
