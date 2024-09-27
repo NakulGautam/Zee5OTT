@@ -5,14 +5,14 @@ const CardData = [
     title: "Berlin",
     type: "video",
     image: "./mov1.webp",
-    videoUrl: "https://www.youtube.com/embed/ZNggGchubZQ?autoplay=0&mute=1&loop=1&playlist=ZNggGchubZQ&si=ik5xJGs7JAwyWiQV",
+    videoUrl: "https://www.youtube.com/embed/ZNggGchubZQ?autoplay=1&mute=1&loop=1&playlist=ZNggGchubZQ&si=ik5xJGs7JAwyWiQV",
     description: "Thriller/Spy/Action",
   },
   {
     title: "Bhaiya Ji",
     type: "video",
     image: "./mov2.webp",
-    videoUrl: "https://www.youtube.com/embed/BTG7TVVD_ys?autoplay=0&mute=1&loop=1&playlist=BTG7TVVD_ys&si=cHzvWrGDP4GfYiFL",
+    videoUrl: "https://www.youtube.com/embed/BTG7TVVD_ys?autoplay=1&mute=1&loop=1&playlist=BTG7TVVD_ys&si=cHzvWrGDP4GfYiFL",
     description: "Action/Drama/Crime",
     
 
@@ -21,14 +21,14 @@ const CardData = [
     title: "DEADPOOL & WOLVERINE",
     type: "video",
     image:"./mov4.png",
-    videoUrl: "https://www.youtube.com/embed/-REFarTXJbw?autoplay=0&mute=1&loop=1&playlist=-REFarTXJbw&si=0hxiyU-hRJimIYSm", // Updated video link with autoplay and mute
+    videoUrl: "https://www.youtube.com/embed/-REFarTXJbw?autoplay=1&mute=1&loop=1&playlist=-REFarTXJbw&si=0hxiyU-hRJimIYSm", // Updated video link with autoplay and mute
     description: "Sci-fi/Action/Comedy",
   },
   {
     title: "Rab Ne Bna Di Jodi",
     type: "video",
     image:"./mov30.jpg",
-    videoUrl: "https://www.youtube.com/embed/E9XJGUEecyE?autoplay=0&mute=1&loop=1&playlist=E9XJGUEecyE&si=peIgu5kTCYAu1bX0",
+    videoUrl: "https://www.youtube.com/embed/E9XJGUEecyE?autoplay=1&mute=1&loop=1&playlist=E9XJGUEecyE&si=peIgu5kTCYAu1bX0",
     description: "Comedy/Romance",
      
   },
